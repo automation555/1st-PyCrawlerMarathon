@@ -1,4 +1,16 @@
 # -*- coding: utf-8 -*-
+# import scrapy
+#
+#
+#class PttcrawlerSpider(scrapy.Spider):
+#   name = 'PTTCrawler'
+#    allowed_domains = ['www.ptt.cc']
+#    start_urls = ['http://www.ptt.cc/']
+#
+#    def parse(self, response):
+#        pass
+
+# -*- coding: utf-8 -*-
 import scrapy
 import re
 from bs4 import BeautifulSoup
@@ -9,7 +21,7 @@ from pprint import pprint
 class PttcrawlerSpider(scrapy.Spider):
     name = 'PTTCrawler'
     allowed_domains = ['www.ptt.cc']
-    start_urls = ['https://www.ptt.cc/bbs/Gossiping/M.1557928779.A.0C1.html']
+    start_urls = ['https://www.ptt.cc/bbs/nCoV2019/M.1580393289.A.C96.html']
     cookies = {'over18': '1'}
 
     def start_requests(self):

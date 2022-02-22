@@ -21,7 +21,8 @@ sources:
     - 'grunt'
     - 'library'
     - '.git'
-    - 'homework'
+    - 'bin.py'
+    
     
 # Specify the languages you would like to Scan. Default is all Detected
 #languages: 'JAVA,CPP'

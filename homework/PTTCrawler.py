@@ -32,6 +32,8 @@ class PttcrawlerSpider(scrapy.Spider):
         # 假設網頁回應不是 200 OK 的話, 我們視為傳送請求失敗
         if response.status != 200:
             print('Error - {} is not available to access'.format(response.url))
+            print('Error - {} is not available to access'.format(response.url))
+            print('Error - {} is not available to access'.format(response.url))
             return
 
         # 將網頁回應的 HTML 傳入 BeautifulSoup 解析器, 方便我們根據標籤 (tag) 資訊去過濾尋找

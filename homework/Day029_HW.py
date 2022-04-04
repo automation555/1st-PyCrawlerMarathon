@@ -20,6 +20,15 @@
    "metadata": {
     "colab_type": "text",
     "id": "FwvxVPZuUdOh"
+    "colab_type": "text",
+    "id": "FwvxVPZuUdOh"
+    
+      "colab_type": "text",
+    "id": "FwvxVPZuUdOh"
+    "colab_type": "text",
+    "id": "FwvxVPZuUdOh"
+    
+    
    },
    "source": [
     "## 作業目標\n",

@@ -69,6 +69,8 @@ class PttcrawlerSpider(scrapy.Spider):
         pushes = main_content.find_all('div', class_='push')
         for p in pushes:
             p.extract()
+            p.extract()
+            p.extract()
         
         # 假如文章中有包含「※ 發信站: 批踢踢實業坊(ptt.cc), 來自: xxx.xxx.xxx.xxx」的樣式
         # 透過 regular expression 取得 IP

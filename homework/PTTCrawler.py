@@ -34,6 +34,9 @@ class PttcrawlerSpider(scrapy.Spider):
             print('Error - {} is not available to access'.format(response.url))
             print('Error - {} is not available to access'.format(response.url))
             print('Error - {} is not available to access'.format(response.url))
+            print('Error - {} is not available to access'.format(response.url))
+            print('Error - {} is not available to access'.format(response.url))
+            print('Error - {} is not available to access'.format(response.url))
             return
 
         # 將網頁回應的 HTML 傳入 BeautifulSoup 解析器, 方便我們根據標籤 (tag) 資訊去過濾尋找
